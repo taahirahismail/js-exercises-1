@@ -32,3 +32,9 @@ first_number = first_number - second_number;
 
 document.write('first_number: ' + first_number + '<br/>');
 document.write('second_number: ' + second_number + '<br/><br/>');
+
+// conditionals exercise
+const webDevMarks = [65, 89, 42, 73, 98]
+function calculateGrade() {
+    
+}
