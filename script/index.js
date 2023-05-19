@@ -33,8 +33,32 @@ first_number = first_number - second_number;
 document.write('first_number: ' + first_number + '<br/>');
 document.write('second_number: ' + second_number + '<br/><br/>');
 
-// conditionals exercise
-const webDevMarks = [65, 89, 42, 73, 98]
-function calculateGrade() {
-    
+// functions exercise
+const myName = 'Taahirah';
+function greet(myName) {
+    console.log('Hello ' + myName);
+}
+greet(myName);
+
+let num1 = 2
+let num2 = 3
+function multiply(num1, num2) {
+    console.log(num1 * num2);
+}
+multiply(num1, num2);
+
+let num3 = 4
+function tableOfFive(num3) {
+    return num3 * 5;
+}
+let xFive = tableOfFive(num3)
+console.log(xFive);
+
+// extra functions exercise
+function calcIceCream() {
+    let numb1, numb2, total;
+    numb1 = parseInt(document.getElementById("numIC").value);
+    numb2 = parseInt(document.getElementById("costIC").value);
+    total = numb1 * numb2;
+    document.getElementById("totalIC").value = total
 }
