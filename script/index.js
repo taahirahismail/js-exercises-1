@@ -62,3 +62,49 @@ function calcIceCream() {
     total = numb1 * numb2;
     document.getElementById("totalIC").value = total
 }
+
+// For Loops Exercise 
+// task 1
+for (let i = 1; i <= 20; i++) {    
+    if (i%2 === 0) {
+        document.write(i + " is even" + "<br/>") 
+    }
+    else {
+        document.write(i + " is odd" + "<br/>")
+    }     
+}
+
+// task 2
+const subjectMark = [68, 75, 93, 82, 77]
+let aveGrade, sum = 0;
+
+// function calculateGrade() {
+//     function average(subjectMark) {
+//         for (i = 0; i < subjectMark.length; i++) {
+//             aveGrade = sum += subjectMark[i];
+//         }
+//     }
+// }
+subjectMarks.forEach(function(num) {sum += num});
+average = sum/subjectMarks.length;
+document.write('Average Subject Mark' + '' + average)
+let calculatedAverage = average;
+
+document.write("Average grade: " + aveGrade + " ")
+
+if (aveGrade > 0 && aveGrade <= 59) {
+    document.write("F")
+}
+else if (aveGrade > 59 && aveGrade <= 69) {
+    document.write("D")
+}
+else if (aveGrade > 69 && aveGrade <= 79) {
+    document.write("C")
+}
+else if (aveGrade > 79 && aveGrade <= 89) {
+    document.write("B")
+}
+else {
+    document.write("A")
+}
+// task 3
